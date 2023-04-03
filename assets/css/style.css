@@ -1,3 +1,4 @@
+/*Page layout and background color*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +7,23 @@
 
 body {
     background-color: #d9dcd6;
+}
+
+/*Font size for the paragraphs in the in the main and aside segments*/
+
+p {
+    font-size: 16px;
+}
+
+/*Main picture for the website and its formating*/
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* Style for the header of the webpage*/
@@ -46,21 +64,6 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
-/*Main picture for the website and its formating*/
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 /*Positioning of the images for the main content sections*/
